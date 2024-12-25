@@ -1,0 +1,3 @@
+# Swift async/await Error Handling
+
+This repository demonstrates a common error in handling errors within Swift's async/await functions. The `fetchData` function fetches data from a remote API.  The current implementation catches potential errors but only prints the error message to the console.  This is not robust error handling for a production app.  The solution provides improved error handling, showing how to handle different error scenarios gracefully.
